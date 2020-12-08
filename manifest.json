@@ -1,0 +1,60 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "2",
+    "interface_version": 2,
+    "init_once": false,
+    "locale": [
+      "ru"
+    ],
+    "installation": true,
+    "support": {
+      "link": "https://oplata.tinkoff.ru/",
+      "email": "a.test@mail.ru"
+    }
+  },
+  "locations": [
+    "lcard-1"
+  ],
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "ru": [
+        "/images/tour_1_ru.png",
+        "/images/tour_2_ru.png",
+        "/images/tour_3_ru.png"
+      ]
+    },
+    "tour_description": "widget.tour_description"
+  },
+  "settings": {
+    "terminal": {
+      "name": "settings.terminal",
+      "type": "text",
+      "required": true
+    },
+    "password": {
+      "name": "settings.password",
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "name": "settings.email",
+      "type": "text",
+      "required": true
+    },
+    "taxation": {
+      "name": "settings.taxation",
+      "type": "text",
+      "required": true
+    },
+    "receipt": {
+      "name": "settings.receipt",
+      "type": "text",
+      "required": true
+    }
+  }
+
+}

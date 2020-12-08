@@ -1,0 +1,47 @@
+.TinkoffPayForm {
+    background: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.TinkoffPayForm * {
+    box-sizing: border-box;
+}
+
+.TinkoffPayForm button {
+    padding: 16px 0;
+    background: #3e4757;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.TinkoffPayForm label,
+.TinkoffPayForm input {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.TinkoffPayForm label {
+    background: #eef2f7;
+    border: 1px solid rgb(221, 223, 224);
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.TinkoffPayForm input {
+    background: transparent;
+}
+
+.TinkoffPayForm a {
+    word-break: break-word;
+    color: #1771e6;
+    text-decoration: none;
+    background: #fff;
+    display: block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
